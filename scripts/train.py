@@ -1,24 +1,21 @@
-import sys
 from pathlib import Path
-
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 import torch
 from ultralytics import YOLO
 
 # ── Paths ────────────────────────────────────────────────
-PROJECT_ROOT = Path(r"D:\Projects\FreshVision")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATASET_PATH = PROJECT_ROOT / "data" / "raw" / "LVIS_Fruits_And_Vegetables"
 DATA_YAML = PROJECT_ROOT / "configs" / "dataset.yaml"
 RUNS_DIR = PROJECT_ROOT / "models" / "runs"
 
 # ── Model config ─────────────────────────────────────────
-MODEL_NAME = "yolo26n.pt"   # nano — light enough for CPU-only training
+MODEL_NAME = "yolo26m.pt"   # medium — a good balance of speed and accuracy
 EPOCHS = 25
-IMGSZ = 480                  # smaller than 640 to cut memory/CPU load
-BATCH = 4                    # small batch to avoid OOM on CPU
+IMGSZ = 480
+BATCH = 4
 PATIENCE = 15
-RUN_NAME = "freshvision_yolo26n"
+RUN_NAME = "freshvision_yolo26n_local"
 
 # Auto-detect device: use GPU 0 if CUDA is available, else CPU.
 DEVICE = 0 if torch.cuda.is_available() else "cpu"
@@ -47,7 +44,7 @@ def ensure_data_yaml():
     DATA_YAML.parent.mkdir(parents=True, exist_ok=True)
     DATA_YAML.write_text(content)
     print(f"[i] Wrote placeholder dataset.yaml to {DATA_YAML}")
-    print("    -> Real class names not found — edit before serious training.")
+    print("    -> Real class names not found - edit before serious training.")
     return DATA_YAML
 
 
@@ -55,7 +52,7 @@ def main():
     data_yaml = ensure_data_yaml()
 
     print("=" * 60)
-    print("FreshVision - Training")
+    print("FreshVision - Local Training")
     print("=" * 60)
     print(f"Model      : {MODEL_NAME}")
     print(f"Data yaml  : {data_yaml}")
@@ -65,7 +62,8 @@ def main():
 
     if DEVICE == "cpu":
         print("\n[!] No GPU detected - training on CPU.")
-        print("    Using yolo26n (nano) with reduced batch/imgsz to limit RAM usage.\n")
+        print("    Using yolo26n (nano) with reduced batch/imgsz to limit RAM usage.")
+        print("    For serious training, use the Colab notebook in colab/ instead.\n")
 
     model = YOLO(MODEL_NAME)
 
@@ -76,7 +74,7 @@ def main():
         batch=BATCH,
         device=DEVICE,
         patience=PATIENCE,
-        workers=0,          # avoid extra worker processes eating more RAM
+        workers=0,
         project=str(RUNS_DIR),
         name=RUN_NAME,
         exist_ok=True,

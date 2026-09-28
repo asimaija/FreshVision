@@ -22,6 +22,11 @@ def list_stems(folder, extensions):
 
 
 def validate_label_file(path):
+    """
+    Returns a list of real problems in the label file.
+    An empty label file is VALID in YOLO format — it means
+    "no objects to detect in this image" — so it's not flagged.
+    """
     problems = []
     try:
         lines = path.read_text().strip().splitlines()
@@ -29,8 +34,7 @@ def validate_label_file(path):
         return [f"cannot read file: {e}"]
 
     if not lines:
-        problems.append("empty label file")
-        return problems
+        return []   # empty label = valid, not an error
 
     for i, line in enumerate(lines, 1):
         parts = line.split()

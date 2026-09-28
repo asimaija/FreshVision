@@ -7,7 +7,7 @@ from ultralytics import YOLO
 
 # ── Paths ────────────────────────────────────────────────
 PROJECT_ROOT = Path(r"D:\Projects\FreshVision")
-WEIGHTS_PATH = PROJECT_ROOT / "models" / "runs" / "freshvision_yolo26s_v2" / "weights" / "best.pt"
+WEIGHTS_PATH = PROJECT_ROOT / "models" / "runs" / "freshvision_yolo26s_v3" / "weights" / "best.pt"
 OUTPUT_DIR = PROJECT_ROOT / "reports" / "predictions"
 
 # ── Inference settings ───────────────────────────────────
