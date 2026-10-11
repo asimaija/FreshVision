@@ -1,3 +1,4 @@
+
 # ── Virtual environment ─────────────────────────
 .venv/
 venv/
@@ -13,8 +14,8 @@ build/
 dist/
 .eggs/
 
-# ── Dataset (too large for git, lives on Drive/Kaggle) ──
-data/
+# ── Dataset (too large for Git, lives on Drive/Kaggle) ──
+data/*
 !data/.gitkeep
 
 # ── Trained models & training runs ──────────────
@@ -35,21 +36,24 @@ reports/metrics/*
 !reports/figures/.gitkeep
 !reports/metrics/.gitkeep
 
-# ── Jupyter ───────────────────────────────────────
+# ── Jupyter ──────────────────────────────────────
 .ipynb_checkpoints/
 
-# ── VS Code ───────────────────────────────────────
+# ── VS Code ─────────────────────────────────────
 .vscode/
 *.code-workspace
 
-# ── OS junk ───────────────────────────────────────
+# ── OS junk ──────────────────────────────────────
 Thumbs.db
 .DS_Store
 desktop.ini
 
-# ── Logs ──────────────────────────────────────────
+# ── Logs ─────────────────────────────────────────
 *.log
 
-# ── Secrets / tokens (if you ever add API keys) ──
+# ── Secrets / tokens ─────────────────────────────
 .env
+*.env
+.env.*
+!.env.example
 *.token

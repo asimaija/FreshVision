@@ -1,0 +1,59 @@
+class,matched_food,fdc_id,data_type,calories_kcal,protein_g,fat_g,carbs_g,fiber_g,sugar_g,sodium_mg,potassium_mg,vitamin_c_mg
+apricot,"Apricot, with skin, raw",2710815,Foundation,48.4,0.961,0.405,10.2,1.51,,0.0,231,3.07
+artichoke,"Jerusalem-artichokes, raw",169236,SR Legacy,73.0,2.0,0.01,17.4,1.6,9.6,4.0,429,4.0
+asparagus,"Asparagus, green, raw",2710823,Foundation,28.1,1.44,0.216,5.1,1.88,,2.46,278,9.15
+avocado,"Avocado, Hass, peeled, raw",2710824,Foundation,223,1.81,20.3,8.32,,,0.0,576,0.0
+banana,"Bananas, overripe, raw",1105073,Foundation,85.0,0.73,0.22,20.1,1.7,,,,9.7
+bean curd,"Beans, snap, green, raw",2346400,Foundation,40.0,1.97,0.275,7.41,3.01,,0.0,290,
+bell pepper,"Peppers, bell, red, raw",2258590,Foundation,31.3,0.896,0.126,6.65,1.16,,0.0,213,142
+blackberry,"Blackberries, raw",2727581,Foundation,,1.53,,,5.3,,1.55,167,15.4
+blueberry,"Blueberries, raw",2346411,Foundation,63.9,0.703,0.306,14.6,,,0.0,85.6,8.06
+broccoli,"Broccoli, raw",747447,Foundation,31.0,2.57,0.34,6.27,2.4,,36.0,303,91.3
+brussels sprouts,"Brussels sprouts, raw",2685575,Foundation,59.5,3.98,0.565,9.62,4.78,,25.7,477,143
+cantaloup,"Melons, cantaloupe, raw",746770,Foundation,34.0,0.82,0.18,8.16,0.8,,30.0,157,10.9
+carrot,"Carrots, baby, raw",2258587,Foundation,40.8,0.805,0.138,9.08,2.69,,62.7,237,
+cauliflower,"Cauliflower, raw",2685573,Foundation,27.6,1.64,0.238,4.72,1.95,,20.0,274,67.1
+cayenne,"Peppers, bell, red, raw",2258590,Foundation,31.3,0.896,0.126,6.65,1.16,,0.0,213,142
+celery,"Celery, raw",2346405,Foundation,16.7,0.492,0.162,3.32,,,97.2,265,
+cherry,"Cherries, sweet, dark red, raw",2346399,Foundation,70.5,1.04,0.192,16.2,,,0.0,230,10.4
+chickpea,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",173756,SR Legacy,378,20.5,6.04,63.0,12.2,10.7,24.0,718,4.0
+chili,"Peppers, hot chili, green, raw",170497,SR Legacy,40.0,2.0,0.2,9.46,1.5,5.1,7.0,340,242
+clementine,"Clementines, raw",168195,SR Legacy,47.0,0.85,0.15,12.0,1.7,9.18,1.0,177,48.8
+coconut,"Nuts, coconut meat, raw",170169,SR Legacy,354,3.33,33.5,15.2,9.0,6.23,20.0,356,3.3
+cucumber,"Cucumber, with peel, raw",2346406,Foundation,15.9,0.625,0.178,2.95,,,1.52,170,
+date,"Dates, medjool",168191,SR Legacy,277,1.81,0.15,75.0,6.7,66.5,1.0,696,0.0
+edible corn,"Corn, sweet, yellow and white kernels,  fresh, raw",2710826,Foundation,84.6,2.79,1.63,14.7,2.43,,0.0,237,
+eggplant,"Eggplant, raw",2685577,Foundation,26.1,0.852,0.12,5.4,2.45,,0.442,222,0.8
+fig,"Figs, dried, uncooked",746768,Foundation,249,3.3,0.92,63.9,9.8,,10.0,680,1.2
+garlic,"Garlic, raw",1104647,Foundation,143,6.62,0.38,28.2,2.7,,,,10.0
+ginger,"Ginger root, raw",169231,SR Legacy,80.0,1.82,0.75,17.8,2.0,1.7,13.0,415,5.0
+gourd,"Gourd, dishcloth (towelgourd), raw",168414,SR Legacy,20.0,1.2,0.2,4.35,1.1,2.02,3.0,139,12.0
+grape,"Grapes, red, seedless, raw",2346412,Foundation,85.9,0.914,0.164,20.2,,,7.0,229,3.31
+green bean,"Beans, snap, green, raw",2346400,Foundation,40.0,1.97,0.275,7.41,3.01,,0.0,290,
+green onion,"Green onion, (scallion), bulb and greens, root removed, raw",2727585,Foundation,,0.669,,,2.3,,9.95,232,
+kiwi fruit,"Kiwifruit, green, raw",327046,Foundation,58.0,1.06,0.44,14.0,3.0,,5.0,198,74.7
+lemon,"Lemon juice, raw",167747,SR Legacy,22.0,0.35,0.24,6.9,0.3,2.52,1.0,103,38.7
+lettuce,"Lettuce, iceberg, raw",2346388,Foundation,17.1,0.742,0.0738,3.37,,,16.1,139,
+lime,"Limes, raw",168155,SR Legacy,30.0,0.7,0.2,10.5,2.8,1.69,2.0,102,29.1
+mandarin orange,"Mandarin, seedless, peeled, raw",2710832,Foundation,62.0,1.04,0.458,13.4,1.33,,0.0,167,21.2
+melon,"Melons, honeydew, raw",2710816,Foundation,36.7,0.531,0.216,8.15,,,21.2,209,15.7
+mushroom,"Mushrooms, Chanterelle, raw",168422,SR Legacy,32.0,1.49,0.53,6.86,3.8,1.16,9.0,506,
+onion,"Onions, red, raw",790577,Foundation,44.0,0.94,0.1,9.93,2.2,,1.0,197,8.1
+orange,"Oranges, raw, navels",746771,Foundation,47.0,0.91,0.15,11.8,2.0,,9.0,166,59.1
+papaya,"Papayas, raw",169926,SR Legacy,43.0,0.47,0.26,10.8,1.7,7.82,8.0,182,60.9
+pea,"Asparagus, green, raw",2710823,Foundation,28.1,1.44,0.216,5.1,1.88,,2.46,278,9.15
+peach,"Peaches, yellow, raw",325430,Foundation,42.0,0.91,0.27,10.1,1.5,,13.0,122,4.1
+pear,"Pears, raw, bartlett",746773,Foundation,57.0,0.38,0.16,15.1,3.1,,7.0,87.0,4.4
+persimmon,"Persimmons, japanese, raw",169941,SR Legacy,70.0,0.58,0.19,18.6,3.6,12.5,1.0,161,7.5
+pickle,"Pickles, cucumber, dill or kosher dill",324653,Foundation,12.0,0.48,0.43,1.99,1.0,,808,112,2.1
+pineapple,"Pineapple, raw",2346398,Foundation,60.1,0.461,0.211,14.1,0.935,,0.0,137,58.6
+potato,"Sweet potatoes, orange flesh, without skin, raw",2346404,Foundation,79.0,1.58,0.375,17.3,,,0.0,486,14.8
+prune,"Plums, dried (prunes), uncooked",2758978,Foundation,,,,,6.25,,0.85,788,0.0
+pumpkin,"Seeds, pumpkin seeds (pepitas), raw",2515380,Foundation,555,29.9,40.0,18.7,5.08,,0.0,691,
+radish,"Radishes, red, raw",2747665,Foundation,19.6,0.656,0.0831,4.06,1.31,,51.2,198,17.8
+strawberry,"Strawberries, raw",2346409,Foundation,36.4,0.641,0.22,7.96,,,0.0,161,59.6
+sweet potato,"Sweet potatoes, orange flesh, without skin, raw",2346404,Foundation,79.0,1.58,0.375,17.3,,,0.0,486,14.8
+tomato,"Tomatoes, canned, red, ripe, diced",333281,Foundation,18.0,0.84,0.5,3.32,,,125,198,
+turnip,"Turnips, raw",2747674,Foundation,34.0,0.953,0.119,7.27,1.92,,12.8,262,26.8
+watermelon,"Watermelon, seedless, flesh only, raw",2747675,Foundation,,0.871,,,,,0.0,117,6.46
+zucchini,"Squash, summer, green, zucchini, includes skin, raw",2685568,Foundation,19.0,0.984,0.205,3.27,0.752,,0.0,226,15.0
